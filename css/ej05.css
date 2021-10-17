@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body, h1, h4, ul, li{
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: block;
+  color: #C0FF36;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #C5000C;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0; rgba(0, 0, 0, 0.19);
+}
+
+body {
+  margin: 0;
+  background-color: #15193e;
+  color: #fffefe;
+  overflow-x: hidden;
+  font-family: 'Work Sans', sans-serif;
+}
+
+h1, h2{
+  font-family: 'Work Sans', sans-serif;
+}
+
+ul {
+  padding: 0;
+  padding-left: 20px;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 30px;
+  text-decoration: none;
+  transition: background-color 0.5s;
+}
+
+li a:hover {
+  background-color: #F50AFF;
+  color: black;
+}
+
+.barra {
+  width: 100vw;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.6) 60%, rgba(0,0,0,0));
+}
+
+.titulo {
+  background-image: linear-gradient( to right, rgba(0,0,0,0) 15%, black 25%, black 75%, rgba(0,0,0,0) 85%);
+  border-radius: 40px;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+  position: absolute;
+  width: 100vw;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  box-shadow: -6px 6px 14px 0 rgba(0, 0, 0, 0.2);
+}
+
+.titulo h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.video {
+  position: static;
+  top: 0;
+  overflow: hidden;
+  margin-top: -40px;
+  padding: 0;
+  width: 100vw;
+  filter: contrast(130%);
+}
+
+.video img {
+  filter: saturate(30%);
+  width: 100vw;
+}
+
+.contenido {
+  padding-left: 0px;
+  display: inline-block;
+}
+
+.columna {
+  float: left;
+  height: 1500px;
+  width: 100vw;
+}
+
+.caraBio {
+  margin: 0;
+  margin-top: 5px;
+  position: relative;
+  float: left;
+  background-color: black;
+  width: 270px;
+  height: 270px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.sombra {
+  background-image: radial-gradient(circle at center center,  rgba(255, 0, 0, 0) 0%, black 100%);
+  margin: 0;
+}
+
+#fondo {
+  position: absolute;
+  left: -110px;
+  top: -100px;
+  width: 500px;
+}
+
+#cara {
+  position: absolute;
+  width: 300px;
+  left: -10px;
+  top: 50px;
+  border-radius: 100%;
+}
+
+.biografia {
+  float: left;
+  margin: 0;
+  margin-right: 15px;
+  padding: 0;
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 90%);
+  height: 285px;
+}
+
+.biografia p {
+  margin-left: 300px;
+  transform: translate(0%,100%);
+  font-size: 18px;
+}
+
+.biografia img {
+  position: absolute;
+}
+
+/*
+.columna2 {
+border: 2px solid #bbb;
+border-top: none;
+border-right: none;
+float: left;
+width: 25%;
+}
+
+.cardNoti {
+background-color: white;
+text-align: center;
+margin-top: 15px;
+margin-left: 15px;
+margin-right: 15px;
+width: auto;
+border-radius: 20px;
+line-height: 100%;
+}
+
+.cardNoti a {
+color: #000000;
+text-align: left;
+}
+.cardNoti p {
+font-size: 18px;
+font-weight: 600;
+margin: 0;
+padding-bottom: 10px;
+padding-top: 5px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.cardNoti img {
+border-radius: 19px;
+border-bottom-right-radius: 0;
+border-bottom-left-radius: 0;
+padding: 0;
+margin: 0;
+width: 100%;
+height: auto;
+}
+
+.cardNoti a:hover {
+border-radius: 20px;
+background-color: #f0f0f0;
+box-shadow: -6px 6px 14px 0 rgba(0, 255, 0, 0.2);
+}
+*/
+
+.record ul {
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+
+.record li {
+}
+
+.record p {
+  visibility: hidden;
+  margin: 0;
+}
+
+.estadisticas p {
+  visibility: hidden;
+}

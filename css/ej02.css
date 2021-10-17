@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;700&family=Open+Sans:wght@300;400&display=swap');
+
+body {
+  background-color: #15193e;
+  color: #fffefe;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+ color: #C0FF36;
+}
+
+a:hover {
+  color: #C5000C;
+}
+
+dd {
+  color: #6f879a;
+}
+
+dt {
+  font-size: 120%;
+}
+
+h1 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 180%
+}
+
+.imagen {
+  text-align: center;
+}
+
+.card {
+  align-content: center;
+  background-color: #0a0c1f;
+  width: 50vw;
+}
