@@ -68,24 +68,24 @@ li a:hover {
   background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.6) 60%, rgba(0,0,0,0));
 }
 
+
 .titulo {
   background-image: linear-gradient( to right, rgba(0,0,0,0) 15%, black 25%, black 75%, rgba(0,0,0,0) 85%);
   border-radius: 40px;
   padding: 20px;
   margin: 0;
   text-align: center;
-  position: absolute;
+  position: fixed;
   width: 100vw;
-  top: 85%;
-  left: 50%;
+  top: 85vh;
+  left: 50vw;
   transform: translate(-50%, -50%);
   z-index: 1;
-  box-shadow: -6px 6px 14px 0 rgba(0, 0, 0, 0.2);
 }
 
 .titulo h1 {
   font-family: 'Poppins', sans-serif;
-  font-size: 50px;
+  font-size: 3vw;
   font-weight: 600;
 }
 
@@ -96,12 +96,15 @@ li a:hover {
   margin-top: -40px;
   padding: 0;
   width: 100vw;
+  height: 100vh;
   filter: contrast(130%);
 }
 
 .video img {
   filter: saturate(30%);
+  height: 100vh;
   width: 100vw;
+  object-fit: cover;
 }
 
 .contenido {
