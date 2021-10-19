@@ -231,13 +231,14 @@ li a:hover {
   box-sizing: border-box;
 }
 .newsletter input[type=submit] {
+  overflow: hidden;
   background-color: black;
   border: 1px solid blue;
   color: white;
   width: 50vw;
-  height: 2vw;
-  padding: 12px 20px;
-  margin: 8px 0;
+  height: 3vw;
+  padding: 1vw 3vw;
+  margin: 1vw;
   box-sizing: border-box;
 }
 .newsletter input[type=submit]:hover {
