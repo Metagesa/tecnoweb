@@ -107,25 +107,14 @@ li a:hover {
   object-fit: cover;
 }
 
-.contenido {
-  padding-left: 0px;
-  display: inline-block;
-}
-
-.columna {
-  float: left;
-  height: 1500px;
-  width: 100vw;
-}
-
 .caraBio {
   margin: 0;
   margin-top: 5px;
   position: relative;
   float: left;
   background-color: black;
-  width: 270px;
-  height: 270px;
+  width: 14vw;
+  height: 14vw;
   border-radius: 100%;
   overflow: hidden;
 }
@@ -133,106 +122,155 @@ li a:hover {
 .sombra {
   background-image: radial-gradient(circle at center center,  rgba(255, 0, 0, 0) 0%, black 100%);
   margin: 0;
+  width: 14vw;
+  height: 14vw;
 }
 
 #fondo {
-  position: absolute;
-  left: -110px;
-  top: -100px;
-  width: 500px;
+  position: static;
+  width: 40vw;
+  height: 30vw;
+  margin-top: -8vw;
+  margin-left: -2vw;
 }
 
 #cara {
   position: absolute;
-  width: 300px;
-  left: -10px;
-  top: 50px;
+  width: 15vw;
   border-radius: 100%;
+  left: -0.5vw;
+  top: 3.2vw;
 }
 
 .biografia {
   float: left;
   margin: 0;
-  margin-right: 15px;
   padding: 0;
   background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 90%);
-  height: 285px;
+  height: 15vw;
 }
 
 .biografia p {
   margin-left: 300px;
   transform: translate(0%,100%);
-  font-size: 18px;
+  font-size: 1.2vw;
 }
 
 .biografia img {
   position: absolute;
 }
 
-/*
-.columna2 {
-border: 2px solid #bbb;
-border-top: none;
-border-right: none;
-float: left;
-width: 25%;
-}
-
-.cardNoti {
-background-color: white;
-text-align: center;
-margin-top: 15px;
-margin-left: 15px;
-margin-right: 15px;
-width: auto;
-border-radius: 20px;
-line-height: 100%;
-}
-
-.cardNoti a {
-color: #000000;
-text-align: left;
-}
-.cardNoti p {
-font-size: 18px;
-font-weight: 600;
-margin: 0;
-padding-bottom: 10px;
-padding-top: 5px;
-padding-left: 15px;
-padding-right: 15px;
-}
-
-.cardNoti img {
-border-radius: 19px;
-border-bottom-right-radius: 0;
-border-bottom-left-radius: 0;
-padding: 0;
-margin: 0;
-width: 100%;
-height: auto;
-}
-
-.cardNoti a:hover {
-border-radius: 20px;
-background-color: #f0f0f0;
-box-shadow: -6px 6px 14px 0 rgba(0, 255, 0, 0.2);
-}
-*/
-
-.record ul {
-  overflow-x: hidden;
-  white-space: nowrap;
-}
-
-.record li {
-}
-
-.record p {
-  visibility: hidden;
+.biografia::after {
+  clear: both;
   margin: 0;
+  padding: 0;
 }
 
-.estadisticas p {
-  visibility: hidden;
+.tienda {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  margin-top: 15.5vw;
+  background-color: black;
+  height: 15vw;
+  overflow: hidden;
+}
+
+.card {
+  font-size: 0.85vw;
+  float: left;
+  color: black;
+  margin: 0.5vw;
+  margin-left: 1vw;
+  background-color: #0CB7F2;
+  border: 2px solid white;
+  width: 31vw;
+  height: 12.5vw;
+  border-radius: 2vw;
+  text-align: center;
+  overflow: hidden;
+}
+
+.card h1 {
+  margin-top: 1vw;
+}
+.card p {
+  margin: 1vw;
+}
+.card button {
+  border: 0;
+  color: white;
+  background-color: black;
+  border-radius: 1vw;
+  width: 10vw;
+  height: 2vw;
+}
+
+.card button:hover {
+  background-color: #444444;
+}
+
+.newsletter {
+  background-color: black;
+  margin-top: 1vw;
+  width: 100vw;
+  height: 12vw;
+  text-align: center;
+  overflow: hidden;
+  font-size: 0.85vw;
+}
+
+.newsletter h1 {
+  margin-top: 1vw;
+}
+.newsletter input[type=text] {
+  width: 50vw;
+  height: 2vw;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.newsletter input[type=submit] {
+  background-color: black;
+  border: 1px solid blue;
+  color: white;
+  width: 50vw;
+  height: 2vw;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.newsletter input[type=submit]:hover {
+  background-color: #444444;
+}
+
+.pie {
+  font-size: 0.85vw;
+  overflow: hidden;
+  background-color: black;
+  margin-top: 1vw;
+  width: 100vw;
+  height: 5.5vw;
+  text-align: center;
+}
+
+.pie a {
+  float: right;
+  margin: 0;
+  padding: 0;
+  color: green;
+  text-decoration: none;
+}
+
+.pie a:hover {
+  color: yellow;
+  box-shadow: none;
+}
+
+.pie p {
+  font-size: 0.85vw;
+  width: 9vw;
+  position: absolute;
+  margin-top: -2vw;
+  right: 2vw;
 }
